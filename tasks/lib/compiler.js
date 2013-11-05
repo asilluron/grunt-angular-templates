@@ -133,7 +133,7 @@ var Compiler = function(grunt, options, cwd) {
       return options.module(file, options);
     }
 
-    return options.module;
+    return options.module.name;
   };
 
   /**
